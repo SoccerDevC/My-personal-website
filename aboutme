@@ -15,6 +15,12 @@
             <li><p><a href="#social">social platforms</a></p></li>
         </ul>
         <p>Profile Photo</p>
+        <p id="My bio">
+        Name: Serumaga Conrad David
+        Age:20
+        Sex:Male
+        Marital Status: single
+        </p>
         <img src="conrad.jpeg" width="200px" height="300px" alt="A picture of Serumaga chilling">
         <p id="about"> Conrad David is an undergraduate student at Makerere University.<br> He is pursuing Software Engineering at the school of Computing</p>
         <p>He is a proud fan of football.
