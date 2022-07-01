@@ -52,6 +52,9 @@
 .new:hover {
   background-color: red;
 }
-p {
-  text-align: center;
+.new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
