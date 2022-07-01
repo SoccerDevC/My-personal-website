@@ -52,3 +52,6 @@
 .new:hover {
   background-color: red;
 }
+p {
+ margin:auto auto auto;
+}
