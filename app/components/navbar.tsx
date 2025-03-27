@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
 import Link from "next/link"
 import { useState, useEffect } from "react"
-import { Menu, X } from "lucide-react"
+import { Menu, X, FileDown } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 
 export default function Navbar() {
@@ -69,8 +69,11 @@ export default function Navbar() {
 
         <div className="flex items-center space-x-4">
           <ThemeToggle />
-          <Button variant="outline" className="hidden md:flex">
-            Resume
+          <Button variant="outline" className="hidden md:flex" asChild>
+            <a href="/files/Serumaga_Conrad_David_Resume.pdf" download="Serumaga_Conrad_David_Resume.pdf">
+              <FileDown className="mr-2 h-4 w-4" />
+              Resume
+            </a>
           </Button>
           <Button variant="ghost" size="icon" className="md:hidden" onClick={toggleMobileMenu}>
             {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -106,8 +109,11 @@ export default function Navbar() {
               >
                 Contact
               </button>
-              <Button variant="outline" className="w-full">
-                Resume
+              <Button variant="outline" className="w-full" asChild>
+                <a href="/files/Serumaga_Conrad_David_Resume.pdf" download="Serumaga_Conrad_David_Resume.pdf">
+                  <FileDown className="mr-2 h-4 w-4" />
+                  Download Resume
+                </a>
               </Button>
             </div>
           </motion.div>

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Github, Linkedin, Mail, Twitter, FileDown } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -14,7 +14,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link
-                href="https://github.com"
+                href="https://github.com/SoccerDevC"
                 target="_blank"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
@@ -22,7 +22,7 @@ export default function Footer() {
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/conrad-david-83b13a292"
                 target="_blank"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
@@ -66,7 +66,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link
+                  href="/files/Serumaga_Conrad_David_Resume.pdf"
+                  download="Serumaga_Conrad_David_Resume.pdf"
+                  className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
+                >
+                  <FileDown className="h-4 w-4" />
                   Resume
                 </Link>
               </li>

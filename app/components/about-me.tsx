@@ -1,7 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { CheckCircle2 } from "lucide-react"
+import { CheckCircle2, FileDown } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
 export default function AboutMe() {
   const skills = [
@@ -92,9 +93,14 @@ export default function AboutMe() {
               </ul>
             </div>
 
-            <p className="text-lg font-medium text-center mt-8 text-primary">
-              📌 Let's build something great together!
-            </p>
+            <div className="flex justify-center mt-6">
+              <Button variant="outline" asChild>
+                <a href="/files/Serumaga_Conrad_David_Resume.pdf" download="Serumaga_Conrad_David_Resume.pdf">
+                  <FileDown className="mr-2 h-4 w-4" />
+                  Download Full Resume
+                </a>
+              </Button>
+            </div>
           </motion.div>
         </div>
       </div>

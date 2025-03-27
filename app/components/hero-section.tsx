@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail, Twitter, ChevronDown } from "lucide-react"
+import { Github, Linkedin, Mail, Twitter, ChevronDown, FileDown } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { motion } from "framer-motion"
@@ -66,7 +66,12 @@ export default function HeroSection() {
               <Button className="bg-primary hover:bg-primary/90" asChild>
                 <a href="#projects">View Projects</a>
               </Button>
-              <Button variant="outline">Download Resume</Button>
+              <Button variant="outline" asChild>
+                <a href="/files/Serumaga_Conrad_David_Resume.pdf" download="Serumaga_Conrad_David_Resume.pdf">
+                  <FileDown className="mr-2 h-4 w-4" />
+                  Download Resume
+                </a>
+              </Button>
             </motion.div>
 
             <motion.div
@@ -81,7 +86,7 @@ export default function HeroSection() {
                   <span className="sr-only">GitHub</span>
                 </Button>
               </Link>
-              <Link href="https://linkedin.com" target="_blank">
+              <Link href="https://linkedin.com/in/conrad-david-83b13a292" target="_blank">
                 <Button variant="ghost" size="icon" className="rounded-full">
                   <Linkedin className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
