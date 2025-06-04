@@ -20,26 +20,27 @@ const technologies = [
     icon: <Smartphone className="h-5 w-5" />,
     skills: ["React Native", "Firebase", "Supabase", "iOS", "Android"],
   },
-  {
-    category: "Data Science",
-    icon: <Database className="h-5 w-5" />,
-    skills: ["Python", "Pandas", "TensorFlow", "Data Visualization", "SQL"],
-  },
-  {
-    category: "AI & Machine Learning",
-    icon: <Brain className="h-5 w-5" />,
-    skills: ["CNN", "Deep Learning", "Image Processing", "AI Integration"],
-  },
-  {
-    category: "Sustainability Tech",
-    icon: <Leaf className="h-5 w-5" />,
-    skills: ["Carbon Footprint Tracking", "Environmental APIs", "Green Tech"],
-  },
-  {
-    category: "Healthcare Solutions",
-    icon: <MedicalCross className="h-5 w-5" />,
-    skills: ["Medical Records Systems", "Healthcare APIs", "Patient Portals"],
-  },
+  // {
+  //   category: "Data Science",
+  //   icon: <Database className="h-5 w-5" />,
+  //   skills: ["Python", "Pandas", "TensorFlow", "Data Visualization", "SQL"],
+  // },
+  // {
+  //   category: "AI & Machine Learning",
+  //   icon: <Brain className="h-5 w-5" />,
+  //   skills: ["CNN", "Deep Learning", "Image Processing", "AI Integration"],
+  // },
+  // {
+  //   category: "Sustainability Tech",
+  //   icon: <Leaf className="h-5 w-5" />,
+  //   skills: ["Carbon Footprint Tracking", "Environmental APIs", "Green Tech"],
+  // },
+  // {
+  //   category: "Healthcare Solutions",
+  //   icon: <MedicalCross className="h-5 w-5" />,
+  //   skills: ["Medical Records Systems", "Healthcare APIs", "Patient Portals"],
+  // },
+  
   {
     category: "DevOps & Security",
     icon: <Cog className="h-5 w-5" />,

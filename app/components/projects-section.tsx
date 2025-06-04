@@ -23,23 +23,23 @@ const projects = [
     demoLink: "https://monica-foundation.vercel.app",
     tags: ["Next.js", "TailwindCSS", "Stripe", "Responsive Design"],
   },
-  {
-    title: "Plant Disease Prediction",
-    description:
-      "An AI-powered application that uses deep learning (CNN) to identify plant diseases from leaf images. Helps farmers diagnose crop issues early and recommend appropriate treatments.",
-    image: "/images/plant-disease.jpg",
-    link: "https://github.com/SoccerDevC/plant-disease-prediction-cnn-deep-learning",
-    tags: ["Python", "TensorFlow", "CNN", "Deep Learning", "Image Processing"],
-  },
-  {
-    title: "Green Future Hub",
-    description:
-      "A sustainability platform promoting environmental conservation through educational content, carbon footprint tracking, and community-driven action plans for a greener future.",
-    image: "/images/green-future.jpg",
-    link: "https://github.com/SoccerDevC/greenfuturehub",
-    demoLink: "https://greenfuturehub.vercel.app",
-    tags: ["Next.js", "Node.js", "PostgreSQL", "AI Integration"],
-  },
+  // {
+  //   title: "Plant Disease Prediction",
+  //   description:
+  //     "An AI-powered application that uses deep learning (CNN) to identify plant diseases from leaf images. Helps farmers diagnose crop issues early and recommend appropriate treatments.",
+  //   image: "/images/plant-disease.jpg",
+  //   link: "https://github.com/SoccerDevC/plant-disease-prediction-cnn-deep-learning",
+  //   tags: ["Python", "TensorFlow", "CNN", "Deep Learning", "Image Processing"],
+  // },
+  // {
+  //   title: "Green Future Hub",
+  //   description:
+  //     "A sustainability platform promoting environmental conservation through educational content, carbon footprint tracking, and community-driven action plans for a greener future.",
+  //   image: "/images/green-future.jpg",
+  //   link: "https://github.com/SoccerDevC/greenfuturehub",
+  //   demoLink: "https://greenfuturehub.vercel.app",
+  //   tags: ["Next.js", "Node.js", "PostgreSQL", "AI Integration"],
+  // },
   {
     title: "Baby Steps Educational Game",
     description:
@@ -49,14 +49,14 @@ const projects = [
     demoLink: "https://baby-steps-game.vercel.app",
     tags: ["React Native", "Supabase", "Firebase", "Game Development"],
   },
-  {
-    title: "Med Health Hub",
-    description:
-      "A comprehensive healthcare application connecting patients with doctors. Features appointment scheduling, medical records management, and secure messaging between healthcare providers and patients.",
-    image: "/images/med-health.jpg",
-    link: "https://github.com/SoccerDevC/Med-Health-Doctor",
-    tags: ["React Native", "Node.js", "MongoDB", "Healthcare API"],
-  },
+  // {
+  //   title: "Med Health Hub",
+  //   description:
+  //     "A comprehensive healthcare application connecting patients with doctors. Features appointment scheduling, medical records management, and secure messaging between healthcare providers and patients.",
+  //   image: "/images/med-health.jpg",
+  //   link: "https://github.com/SoccerDevC/Med-Health-Doctor",
+  //   tags: ["React Native", "Node.js", "MongoDB", "Healthcare API"],
+  // },
   {
     title: "Turf Management System",
     description:
