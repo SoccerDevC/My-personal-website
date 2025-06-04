@@ -9,7 +9,7 @@ const projects = [
     title: "CPA Assumpta Nabachwa Website",
     description:
       "A professional website for a Certified Public Accountant showcasing services, expertise, and business insights. Features a modern design with client testimonials and contact functionality.",
-    image: "/images/assumpta-website.jpg",
+    image: "/images/assumpta.png",
     link: "https://github.com/SoccerDevC/assumptanabachwamuweera",
     demoLink: "https://assumptanabachwa.com",
     tags: ["WordPress", "Elementor", "JavaScript", "Responsive Design"],

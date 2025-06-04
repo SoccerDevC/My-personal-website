@@ -44,7 +44,7 @@ export default function HeroSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4, duration: 0.5 }}
               >
-                Mobile & Web Solutions | Healthcare Tech | AI & Data Science
+                Application Developer | Full Stack Developer
               </motion.h2>
               <motion.p
                 className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400"
