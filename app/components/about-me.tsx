@@ -63,8 +63,8 @@ export default function AboutMe() {
             <div>
               <h3 className="text-2xl font-bold mb-4">Who I Am</h3>
               <p className="text-muted-foreground mb-4">
-                I'm a <strong>Junior Software Engineer</strong> with a passion for building innovative
-                digital solutions across multiple domains with the aim of solving community problems. Impact!!
+                I'm a <strong>Software Engineer</strong> with a passion in creating impact in people's lives by developing solutions to  
+                address community problems. 
               </p>
               <p className="text-muted-foreground">
                 My projects demonstrate my versatility - from developing digital financial solutions to creating AI-powered systems and educational games. I'm committed to using
