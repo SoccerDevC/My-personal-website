@@ -43,8 +43,8 @@ export default function AboutMe() {
               </div>
               <div className="absolute -bottom-6 -right-6 bg-background p-4 rounded-xl shadow-lg border border-border">
                 <div className="text-center">
-                  <p className="font-bold text-primary">Final Year</p>
-                  <p className="text-sm">Software Engineering</p>
+                  <p className="font-bold text-primary">Software</p>
+                  <p className="text-sm">Engineer</p>
                 </div>
               </div>
               {/* Decorative elements */}
