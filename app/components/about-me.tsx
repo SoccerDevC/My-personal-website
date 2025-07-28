@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button"
 
 export default function AboutMe() {
   const skills = [
+    "Application Developer (C#, .Net Framework)",
     "Full-Stack Web Development (React, Next.js, Node.js, WordPress)",
     "Mobile App Development (React Native – iOS & Android)",
     "Backend Engineering (Node.js, Express, PostgreSQL, MongoDB)",
-    "Data Science & Machine Learning (Python, TensorFlow, CNN)",
     "Healthcare & Environmental Tech Solutions",
     "Security & DevOps (Docker, AWS, CI/CD, Linux, Nginx)",
   ]

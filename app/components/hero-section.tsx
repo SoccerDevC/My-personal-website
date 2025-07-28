@@ -52,8 +52,7 @@ export default function HeroSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.5 }}
               >
-                Building innovative digital experiences with modern technologies. Specialized in healthcare solutions,
-                environmental platforms, and AI-powered applications.
+                Coming Up with Solutions That create Enormous Impact in People's Lives
               </motion.p>
             </div>
 
